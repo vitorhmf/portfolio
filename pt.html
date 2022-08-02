@@ -24,11 +24,11 @@
 								<header id="header">
 									<a href="index.html" class="logo"><strong>Portfólio de Projetos</strong> | Vitor Ferreira</a>
 										<ul class="icons">
-												<li><a href="https://vitorhmf.github.io/portfolio/pt" class="image object"><span class="label"><img src="images/flag-br.png" width=25 height=25 alt="" /></span></a></li>
-												<li><a href="https://vitorhmf.github.io/portfolio/" class="image object"><span class="label"><img src="images/flag-us.png" width=25 height=25 alt="" /></span></a></li>
+												<li><a href="https://vitorhmf.github.io/portfolio/pt" class="image object"><span class="label"><img src="images/flag-br.png" width=35 height=35 alt="" /></span></a></li>
+												<li><a href="https://vitorhmf.github.io/portfolio/" class="image object"><span class="label"><img src="images/flag-us.png" width=35 height=35 alt="" /></span></a></li>
 										</ul>
 								</header>
-								
+
 						<!-- Banner -->
 						<section id="banner">
 							<div class="content">
@@ -94,6 +94,7 @@
 													<h3>Visualização de Dados</h3>
 															<ul>
 																<li>Matplotlib, Seaborn, Plotly.</li>
+																<li>Streamlit</li>
 																<li>Power BI, Tableau.</li>
 																<li>Estatística Descritiva.</li>
 															</ul>
@@ -103,11 +104,12 @@
 											<article>
 												<span class="icon solid fa-rocket"></span>
 												<div class="content">
-													<h3>Engenharia de Software</h3>
+													<h3>Machine Learning e Engenharia de Software</h3>
 															<ul>
-																<li>Git, Github, Virtual Environment.</li>
-																<li>Streamlit.</li>
-																<li>Cloud Heroku.</li>
+																<li>Algoritmos de Regressão, Classificação e Clusterização.</li>
+																<li>Métricas de performance dos algoritmos.</li>
+																<li>SKLearn e Scipy.</li>
+																<li>Git, Github, Heroku, Virtual Environment.</li>
 															</ul>
 												</div>
 											</article>
@@ -135,9 +137,13 @@
 										<h2>Experiências Profissionais</h2>
 									</header>
 											<h3 id="content">Cientista de Dados na Comunidade DS (2022 - atual)</h3>
-													<p>Nesse grupo de estudos desenvolvo soluções de dados para problemas de negócio, próximos dos desafios reais das
-													empresas. Esse trabalho é feito utilizando dados públicos e abordando o problema desde a concepção do desafio de
-													negócio até a publicação do algoritmo em produção, através de ferramentas de Cloud Computing.</p>
+													<p>A Comunidade DS é uma instituição de ensino que proporciona um ambiente de desenvolvimento de
+														projetos de dados para problemas de negócios, próximo aos desafios reais das empresas. Esses projetos
+														são realizados individualmente por cada Cientista de Dados, utilizando dados públicos e desenvolvendo
+														o problema desde a concepção do desafio do negócio até a implantação do algoritmo em produção, por meio
+														ferramentas de Cloud Computing.</p>
+													<p>Como Cientista de Dados, venho desenvolvendo projetos na Comunidade DS desde janeiro de 2022 e os
+														trabalhos produzidos são descritos em detalhes na próxima seção.</p>
 											<h3 id="content">Proprietário da Metapro Consultoria e Representação Comercial (2019 - atual)</h3>
 													<p>Na Metapro, trabalho com o desenvolvimento de soluções comerciais. Realizando desde o mapeamento de mercado, com a
 													obtenção e tratamento dos dados, passando pela definição de ações e estratégias a serem tomadas, até a
@@ -174,15 +180,15 @@
 									<div class="posts">
 										<article>
 											<a class="image"><img src="images/loyalty_program.jpg" alt="" /></a>
-											<h3> Implantação do programa de fidelidade Insiders <br /> (em desenvolvimento) </h3>
+											<h3> Programa de Fidelidade Insiders <br /> (em desenvolvimento) </h3>
 											<p>Para implantar um novo programa de fidelidade chamado Insiders,
-											um modelo de Machine Learning não supervisionado de Clusterização
+											um modelo de Machine Learning não supervisionado de <b>Clusterização</b>
 											foi desenvolvido, agrupando a base de clientes de acordo com suas similaridades.</p>
 											<h4>Ferramentas utilizadas:</h4>
 											<ul>
 												<li>Python, Pandas, Numpy e Seaborn.</li>
-												<li>VS Code e Jupyter Notebook.</li>
 												<li>Boruta, Sklearn, Scipy.</li>
+												<li>Métricas de Clusterização: WSS, Silhouette Score.</li>
 												<li>Heroku Cloud.</li>
 											</ul>
 											<ul class="actions">
@@ -193,15 +199,15 @@
 											<a class="image"><img src="images/insurance_all.jpg" alt="" /></a>
 											<h3> Campanha de Cross-Sell </h3>
 											<p>Para aumentar a peformance do time de vendas durante uma campanha de Cross Sell,
-											foi desenvolvido um modelo de Machine Learning de Classificação para gerar um
+											foi desenvolvido um modelo de Machine Learning de <b>Classificação</b> para gerar um score
 											de propensão de compra e classificar uma base de 127 mil clientes. O modelo treinado gerou
 											um faturamento extra de $25.000.000,00. </p>
 											<h4>Ferramentas utilizadas:</h4>
 											<ul>
 												<li>Python, Pandas, Numpy e Seaborn.</li>
-												<li>VS Code e Jupyter Notebook.</li>
 												<li>Boruta, Sklearn, Scipy.</li>
 												<li>KNN, Random Forest, Extra Trees, XGBoost, LGBM.</li>
+												<li>Métricas de Classificação: Precicion e Recall at K.</li>
 												<li>Pickle, Flask, Heroku Cloud</li>
 											</ul>
 											<ul class="actions">
@@ -210,16 +216,16 @@
 										</article>
 										<article>
 											<a class="image"><img src="images/rossmann.jpg" alt="" /></a>
-											<h3> Predição de receita de vendas </h3>
+											<h3> Previsão de Vendas </h3>
 											<p>Construção de um algoritmo de Machine Learning para prever vendas com 6 semanas de
-												antecedência em uma rede de farmácias	da Europa. O algoritmo de Regressão treinado
+												antecedência em uma rede de farmácias	da Europa. O algoritmo de <b>Regressão</b> treinado
 												possui 88% de MAPE e foi colocado disponível para consultas através de um bot do Telegram.</p>
 											<h4>Ferramentas utilizadas:</h4>
 											<ul>
 												<li>Python, Pandas, Numpy e Seaborn.</li>
-												<li>VS Code e Jupyter Notebook.</li>
 												<li>Boruta, Sklearn, Scipy.</li>
 												<li>Linear Regression, Lasso, Random Forest Regressor, XGBoost Regressor.</li>
+												<li>Métricas de Regressão: RMSE, MAE, MAPE.</li>
 												<li>Telegram Bot, Flask, Heroku Cloud.</li>
 											</ul>
 											<ul class="actions">
@@ -228,10 +234,10 @@
 										</article>
 										<article>
 											<a class="image"><img src="images/seatle.jpg" alt="" /></a>
-											<h3>Identificação de oportunidades no setor imobiliário</h3>
-											<p>Com o objetivo de maximizar o retorno do investimento da empresa, foi realizada uma analise de dados
-											através do Python para identificar oportunidades de casas abaixo do preço médio de mercado
-											e definir quando e por qual preço revender esses imóveis.</p>
+											<h3>Oportunidades no setor imobiliário</h3>
+											<p>Com o objetivo de maximizar o retorno do investimento da empresa, este projeto de <b>Analise de Dados</b>
+											foi desenvolvido utilizando Linguagem Python para identificar oportunidades de casas abaixo do preço
+											médio de mercado e definir quando e por qual preço revender esses imóveis.</p>
 
 											<h4>Ferramentas utilizadas:</h4>
 											<ul>
@@ -247,13 +253,13 @@
 										</article>
 										<article>
 											<a class="image"><img src="images/sales.jpg" alt="" /></a>
-											<h3>Dashboard de vendas em Power BI</h3>
-											<p>Desenvolvimento de um Dashboard Comercial para a visualização da evolução de 4 KPI's: Faturamento, Quantidade
+											<h3>Dashboard de Vendas</h3>
+											<p>Desenvolvimento de um <b>Dashboard em Power BI</b> para a visualização da evolução de 4 KPI's: Faturamento, Quantidade
 											de Vendas, Ticket Médio e Positivação. Os resultados são detalhados no projeto por período de tempo, por
 											produto e por colaborador.</p>
 											<h4>Ferramentas utilizadas:</h4>
 											<ul>
-												<li>Power BI, Power Query, Linguagem Dax.</li>
+												<li>Power BI, Power Query, Linguagem DAX.</li>
 												<li>Excel, Power Point.</li>
 												<li>Estatística Descritiva.</li>
 
